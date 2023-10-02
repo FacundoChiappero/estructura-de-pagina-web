@@ -1,0 +1,54 @@
+.titulo{
+    text-align: center;
+    background-color: rgb(11, 11, 119);
+    color:white;
+}
+.subtitulo{
+    text-decoration: underline 5px;
+}
+section{
+    background-color: yellow;
+    width: 65vw;
+    border: 3px black solid;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 0 10px;
+}
+aside{
+    float: right;
+    background-color: white;
+    width: 28vw;
+    margin-top: -260px;
+    border: 10px gray dotted;
+}
+footer{
+    background-color: lime;
+    position: absolute;
+    bottom: 0;
+    margin-left: -7px;
+}
+body{
+    background-color: rgb(255, 211, 146);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    height: 50px;
+}
+img:hover{
+    height: 100px;
+}
+nav{
+    display: flex;
+    flex-flow: row;
+    background-color: cyan;
+}
+.g{
+    flex-basis: 33vw;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline 2px;
+    border: 5px black solid;
+    height: 30px;
+    margin: 0 auto;
+    padding: 8px 0 0 0;
+}
